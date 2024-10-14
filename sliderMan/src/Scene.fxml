@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.SceneControll">
+   <children>
+      <AnchorPane prefHeight="307.0" prefWidth="293.0">
+         <children>
+            <Slider fx:id="Temp" layoutX="116.0" layoutY="14.0" majorTickUnit="10.0" minorTickCount="10" orientation="VERTICAL" prefHeight="251.0" prefWidth="24.0" showTickLabels="true" showTickMarks="true" value="50.0" />
+            <Label fx:id="nTemp" layoutX="205.0" layoutY="145.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
