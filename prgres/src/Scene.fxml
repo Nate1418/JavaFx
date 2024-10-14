@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneControll">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-9.0" prefHeight="185.0" prefWidth="403.0">
+         <children>
+            <ProgressBar fx:id="Bprog" layoutX="118.0" layoutY="72.0" prefHeight="53.0" prefWidth="184.0" progress="0.22" />
+            <Label fx:id="Lprog" layoutX="182.0" layoutY="26.0" text="Label" />
+            <Button fx:id="prog" layoutX="184.0" layoutY="139.0" mnemonicParsing="false" onAction="#LetProg" text="Progress" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
