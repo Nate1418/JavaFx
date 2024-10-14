@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.SceneControll">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="360.0" prefWidth="469.0">
+         <children>
+            <TreeView fx:id="tree" layoutX="114.0" layoutY="43.0" onInputMethodTextChanged="#selectItem" onKeyPressed="#selectItem" prefHeight="299.0" prefWidth="248.0" />
+            <Label fx:id="Tlabel" layoutX="207.0" layoutY="14.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
